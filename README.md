@@ -1,6 +1,3 @@
----
-output: html_document
----
 # VecStats
 Vectrozied stats functions
 These functions are meant to replace `*apply` loops when working row wise

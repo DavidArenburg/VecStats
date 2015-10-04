@@ -1,0 +1,9 @@
+Package: VecStats
+Title: Different vectorized rowwsie (mainly) operation using base R only 
+Version: 0.1
+Author: David Arenburg [aut, cre]
+Maintainer: David Arenburg <david.arenburg@gmail.com>
+Description: Vectorise stuff without any dependencies
+Depends: R (>= 3.2.2)
+License: MIT
+LazyData: true

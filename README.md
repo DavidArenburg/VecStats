@@ -15,7 +15,7 @@ devtools::install_github('davidarenburg/VecStats')
 **Some use cases**
 ```r
 set.seed(123)
-(M <- matrix(sample(25), ncol = 5))
+(M <- matrix(sample(25L), ncol = 5L))
 #      [,1] [,2] [,3] [,4] [,5]
 # [1,]    8    1   15   13    5
 # [2,]   19   11    7    3   12
@@ -24,7 +24,7 @@ set.seed(123)
 # [5,]   22   25    2    6   16
 
 set.seed(124)
-(M2 <- matrix(sample(25), ncol = 5))
+(M2 <- matrix(sample(25L), ncol = 5L))
 #      [,1] [,2] [,3] [,4] [,5]
 # [1,]    3    6   19    1    4
 # [2,]   10   23   15   20   25
@@ -33,21 +33,21 @@ set.seed(124)
 # [5,]    5   21   17   13    2
 
 ### -- Var per row -- ###
-MatVar(M, 1) # Or RowVar(M)
+MatVar(M, 1L) # Or RowVar(M)
 # [1] 32.8 35.8 43.7 54.2 99.2
-apply(M, 1, var)
+apply(M, 1L, var)
 # [1] 32.8 35.8 43.7 54.2 99.2
 
 ### -- Var per column (not very afficient because uses `t` (needs some more thinking) -- ###
-MatVar(M, 2)
+MatVar(M, 2L)
 # [1] 40.2 94.8 28.3 58.7 68.2
-apply(M, 2, var)
+apply(M, 2L, var)
 # [1] 40.2 94.8 28.3 58.7 68.2
 
 ### -- SD per row -- ###
 RowSD(M)
 # [1] 5.727128 5.983310 6.610598 7.362065 9.959920
-apply(M, 1, sd)
+apply(M, 1L, sd)
 # [1] 5.727128 5.983310 6.610598 7.362065 9.959920
 
 ### -- Covariance between two matrices per row -- ###

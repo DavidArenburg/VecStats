@@ -1,5 +1,4 @@
 # VecStats
-<<<<<<< HEAD
 **Vectrozied stats functions**
 
 These functions are meant to replace `*apply` loops when working row wise
@@ -11,14 +10,7 @@ There is nothing new here, and most of this already written in C++ in the `matri
 ```r
 devtools::install_github('davidarenburg/VecStats')
 ```
-
 ---
-
-**Load the package**
-```r
-devtools::install_github('davidarenburg/VecStats')
->>>>>>> e345a3c9ab331c1b89fe5cfcf2549206fc048e95
-```
 
 **Some use cases**
 ```r

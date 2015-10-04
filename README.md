@@ -1,7 +1,7 @@
 # VecStats
 **Vectrozied stats functions**
 
-These functions are meant to replace `*apply` loops when working row wise
+These functions are meant to replace `*apply` loops when working row wise.
 There is nothing new here, and most of this already written in C++ in the `matrixStats` package. The only thing here is that these function written in base R only and thuse easy to modify/understand and no dependencies either.
 
 ---

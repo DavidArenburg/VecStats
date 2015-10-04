@@ -5,8 +5,7 @@ These functions are meant to replace `*apply` loops when working row wise
 
 **Load the Gist**
 ```r
-library(devtools)
-source_gist("cca995ec1709c0d4735d")
+devtools::install_github('davidarenburg/VecStats')
 ```
 
 **Some use cases**
